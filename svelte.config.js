@@ -6,9 +6,4 @@ export default {
   // for more information about preprocessors
   preprocess: vitePreprocess(),
   plugins: [svelte()],
-    server: {
-        mimeTypes: {
-            '.geojson': 'application/json'
-        }
-    }
 }
